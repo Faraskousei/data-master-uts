@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+    .data-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        width: 70px;
+    }
+
+    .sidebar-header h2,
+    .sidebar-menu span {
+        display: none;
+    }
+
+    .main-content {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    .data-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .header-search input {
+        width: 200px;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-search {
+        display: none;
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 20px auto;
+    }
+} 
